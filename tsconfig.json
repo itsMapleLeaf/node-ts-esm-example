@@ -23,5 +23,6 @@
     // target should set the appropriate "lib" values,
     // but you can configure it anyway if you want
     // "lib": []
-  }
+  },
+  "exclude": ["node_modules"]
 }
