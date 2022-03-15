@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+
+    // disallows some features that don't compile in a single-file compilation context,
+    // like namespaces and const enums
+    // (you shouldn't be using those anyway)
+    "isolatedModules": true,
+
+    // this isn't necessary, but it's a nice check :)
+    "noUncheckedIndexedAccess": true,
+
+    // enabled for perf
+    "skipLibCheck": true
+
+    // target should set the appropriate "lib" values,
+    // but you can configure it anyway if you want
+    // "lib": []
+  }
+}
